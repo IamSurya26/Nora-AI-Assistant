@@ -95,7 +95,7 @@ def login_page():
 
     # Authentication logic (replace with your actual logic)
     if submit_login:
-        if username == "user1" and password == "abc1234":
+        if username == "admin@NoraAI.io" and password == "Ch@tA$$i$t@nt2O24":
             st.session_state.logged_in = True
         else:
             st.error("Invalid login credentials")
